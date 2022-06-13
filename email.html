@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+        body {
+        font-family: 'Joan', serif;
+        background-color:#f3beca;
+        font-size: x-large;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 3%;
+    }
+    img{
+        max-width: 100%;
+    }
+    header{
+        width: 98%;
+    }
+    #logo{
+        max-width: 120px;
+        margin: 3% 0 3% 3%;
+        float:left;
+    }
+    #social{
+        float:right;
+        margin: 3% 2% 4% 3%;
+        list-style-type: none;
+    }
+    #social > li{
+        display: inline;
+    }
+    #social>li>a>img{
+        max-width: 35px;
+    }
+    h1,
+    p {
+        margin:3%;
+    }
+    .btn{
+        float: right;
+        margin: 0 2% 4% 0;
+        background-color: aliceblue;
+        color:darkolivegreen;
+        text-decoration:none;
+        font-weight: 800;
+        padding: 8px 12px;
+        border-radius: 20px;
+        letter-spacing: 2px;
+    }
+    hr{
+        height: 1px;
+        background-color: black;
+        clear: both;
+        width: 98%;
+        margin: auto;
+    }
+    #contact{
+        text-align: center;
+        padding-bottom: 3%;
+        line-height: 20px;
+        font-size: 15px;
+        color: blue;
+    }
+    #wrapper{
+        background-color:aqua;
+    }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <div id="logo">
+            <img src="img/logo.png" alt="">
+        </div>
+        <div>
+            <ul id="social">
+                <li>
+                    <a href="#" target="_blank"><img src="img/fb-color.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#" target="_blank"><img src="img/in-color.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#" target="_blank"><img src="img/yt-color.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#" target="_blank"><img src="img/tw-color.png" alt=""></a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div id="banner">
+    <a href="https://butternutbox.com/subscription/checkout/828"target="_blank"><img src="img/banner.png" alt=""></a>
+    </div>
+    <div id="one-col">
+        <h1>Learn how to create an email HTML</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat iste quas maxime veritatis quaerat consequuntur, sapiente libero natus nemo, aliquam recusandae delectus ratione sint quo, sed corrupti culpa perferendis nulla?
+        </p>
+        <a href="#", class="btn">Learn more</a>
+        <hr>
+        <footer>
+            <p id="contact">
+               Lancaster University<br>
+                graduate <br>
+                LA2 0PF
+            </p>
+        </footer>
+    </div>
+</div>
+</body>
+</html>
